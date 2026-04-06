@@ -12,5 +12,5 @@ You will only need to submit the rendered html file which should contain a link 
 
 ## Note
 
-When completing this lab, I had an issue where my initial QMD would not push to Github. Therefore, I had to create a new project and copied my answers from the first QMD to the one in this repository. 
-Therefore, the time between the commits is very short -- however, this lab was completed on my own time. I wanted to clarify in case there was any confusion.
+When completing this lab, I had an issue where my initial QMD would not push to Github, which I did not realize until after completing the entire lab. Therefore, I had to create a new project and copied my answers from the first QMD to the one in this repository. 
+Therefore, the time between the commits in this repository is very short -- however, this lab was completed on my own time. I wanted to clarify in case there was any confusion.

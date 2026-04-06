@@ -217,7 +217,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Bootstrap resampling involves pulling random samples from the training data with replacement, meaning that data points can appear more than once, in contrast to the mutually exclusive folds. Boostrapping is helpful for smaller datasets, when creating mutually exclusive folds may not leave enough data to accurately train or evaluate the model.
 
 :::
 
@@ -228,7 +228,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tuning is a process where a range of parameter values are tested using a resampling process. The tuning parameters with the highest performance metric are often selected for the final model. Tuning is done to increase a model's predictive power by figuring out which combination of parameters best fit the data, using a resampling process to prevent overfitting.
 
 :::
 
@@ -239,7 +239,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+RMSE and MAE.
 
 :::
 
@@ -248,7 +248,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Accuracy and ROC AUC.
 
 :::
 
@@ -263,7 +263,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Inferential, because it is testing a hypothesis about a relationship between two variables.
 
 :::
 
@@ -272,7 +272,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Predictive, since it is trying to predict an outcome for future data.
 
 :::
 

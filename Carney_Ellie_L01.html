@@ -2363,7 +2363,7 @@ vertical-align: -.125em;
 <section id="part-a" class="level4">
 <h4 class="anchored" data-anchor-id="part-a">Part (a)</h4>
 <p>What does it mean to be a mechanistic model?</p>
-<div class="callout callout-style-default callout-tip no-icon callout-empty-content callout-titled">
+<div class="callout callout-style-default callout-tip no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
@@ -2373,7 +2373,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-
+<p>A mechanistic model assumes that the data follows a known underlying formula, and therefore aims to define what this formula is by evaluating relationships between variables and estimating a set of parameters to define these relationships.</p>
 </div>
 </div>
 </section>
@@ -2390,7 +2390,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>An empirically driven model does not assume that there is an known underlying formula or set of parameters that defines the relationships in the data. Instead, an empirical model observes patterns in the data without making assumptions about a formulaic relationship.</p>
 </div>
 </div>
 </section>
@@ -2407,7 +2407,8 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>The terms parametric and nonparametric describe the mathematical framework of mechanistic and empirically driven models. A model that assumes the data follows a predefined formula is mechanistic because its goal is to identify the underlying mechanism and estimate a fixed set of parameters to fit that function.</p>
+<p>In contrast, a model that does not assume a predefined formula is empirically driven. Its goal is to define patterns with full flexibility based on the data itself. An empirical model is nonparametric because its parameters are not constrained to a fixed functional form, allowing the model’s complexity to adapt to the data.</p>
 </div>
 </div>
 </section>
@@ -2424,7 +2425,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>A mechanistic model is easier to interpret because it is based on predefined functions that can explain the nature between a variable and an outcome. For example, a mechanistic model could find that there is a linear relationship between a predictor and the outcome variable. In contrast, since an empirical model fits to the complexity of the data, the exact logic behind the relationship may not be clear.</p>
 </div>
 </div>
 </section>
@@ -2441,7 +2442,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>An empirically driven model is more flexible than a mechanistic model, since there is no preeexisting formula that the data is being fit to. Instead, the model defines its patterns fully based on the patterns observed in the data, meaning that it is more flexible.</p>
 </div>
 </div>
 </section>
@@ -2458,7 +2459,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>A mechanistic model is more biased, since it is fitting the data to a known formula. This means that the mechanistic model is less able to account for variance in the data. In contrast, because the empirically driven model is fully based on the data, it is more able to account for variance and has less bias. However, this flexibility can also lead to overfitting, meaning that the model is observing patterns that are only true for that specific dataset and provide no generalizations.</p>
 </div>
 </div>
 </section>
@@ -2476,7 +2477,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>A regression problem involves an outcome variable that is continuous or numeric, meaning that the machine learning model model is trying to predict a numeric outcome. A classification problem involves an outcome variable that is categorical, meaning that the machine learning model is trying to sort new data into the correct category.</p>
 </div>
 </div>
 </section>
@@ -2493,7 +2494,7 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<p>It’s important to stratify by the target variable to make sure that the target variable is proportionally split across the training and testing data. In other words, to ensure that the training and testing data have an accurate representation of how the target variable is distributed. This is especially important if the target variable is unevenly distributed, to make sure that all classes or ranges of the target variable are represented in both sets of data.</p>
 </div>
 </div>
 </section>
@@ -2510,7 +2511,14 @@ vertical-align: -.125em;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>YOUR SOLUTION HERE</p>
+<ul>
+<li>The training data is randomly split into V number of mutually exclusive folds.</li>
+<li>V-1 of the folds are used as training data, and 1 fold is saved as testing data to evaluate the RMSE.</li>
+<li>This process is repeated until every fold has served as the testing set.</li>
+<li>This process is repeated for however many repeats are specified, starting with new folds being created.</li>
+<li>The final RMSE is the average across all of the V folds for all repeats.</li>
+</ul>
+<p>Resampling is done to help prevent overfitting to the training data, which could lead to underperformance on the unseen testing data. Randomizing the data that the model is trained on multiple times helps provide a more accurate measurement of how the model will perform on the unseen testing data.</p>
 </div>
 </div>
 </section>

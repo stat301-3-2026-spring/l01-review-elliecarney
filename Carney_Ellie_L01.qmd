@@ -26,9 +26,8 @@ citation-location: margin
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
+[Github Repo Link](https://github.com/stat301-3-2026-spring/l01-review-elliecarney.git)
 
-[https://your-github-repo-url](https://your-github-repo-url)
 :::
 
 ## Overview
@@ -46,7 +45,15 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- split data into training and testing sets, with more data reserved for training. 
+- if conducting a resampling process, fold the training data into a set for resampling.
+- conduct an EDA and create a recipe with any necessary preprocessing steps performed on the data.
+- set the engine for the model(s). if conducting a resampling process, set parameters that need to be tuned.
+- if conducting a resampling process, define the grid that the parameters will be tuned on.
+- create a workflow.
+- fit the workflow to the training data/resampling data. 
+- if conducting resampling process, compare the model performance and select the best performing model and fit it to the entire training data.
+- evaluate model performance by testing how well it predicts the outcome variable on the testing data.
 
 :::
 
@@ -57,7 +64,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Supervised learning involves a target variable and observes patterns between the relationship between a set of predictors and the target variable. Unsupervised learning observes patterns in the data without a select target variable.
 
 :::
 
@@ -70,7 +77,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A descriptive model summarizes or visually depicts an existing characteristic or trend in the data.
 
 :::
 
@@ -79,7 +86,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+An inferential model aims to answer a research question based on underlying relationships in the data.
 
 :::
 
@@ -88,7 +95,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+A predictive model aims to create the most accurate prediction possible for future or a new set of data.
 
 :::
 
@@ -103,7 +110,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+
 
 :::
 

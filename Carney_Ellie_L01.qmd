@@ -1,8 +1,8 @@
 ---
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
-author: "YOUR NAME"
-pagetitle: "L01 YOUR NAME"
+author: "Ellie Carney"
+pagetitle: "L01 Ellie Carney"
 date: today
 
 format:

@@ -301,6 +301,8 @@ A mechanistic model is more biased, since it is fitting the data to a known form
 
 :::
 
+
+
 ::: {.callout-important icon="false"}
 
 ## Score 
@@ -347,6 +349,18 @@ It's important to stratify by the target variable to make sure that the target v
 
 :::
 
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+Did not include that the harm of having the target variable being unevenly split is because it could result in overfitting or underfitting the model.
+
+:::
+
 ### Question 7 
 
 Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
@@ -364,6 +378,18 @@ Resampling is done to help prevent overfitting to the training data, which could
 
 :::
 
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+Explanation of how v-fold cross validation works and also why it is helpful to create a more accurate estimate of how the model will perform on unseen data is correct.
+
+:::
+
 ### Question 8
 
 When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
@@ -375,6 +401,22 @@ Bootstrap resampling involves pulling random samples from the training data with
 
 :::
 
+::: {.callout-important icon="false"}
+
+## Score 
+
+3
+
+## Explanation
+
+Identified that bootstrapping is helpful for small datasets, but not that it is helpful when you want the RMSE to have low variance.
+
+## Updated solution
+
+Bootstrap resampling involves pulling random samples from the training data with replacement, meaning that data points can appear more than once, in contrast to the mutually exclusive folds. This means that boostrapping can be run many more times than folds. Therefore, bootsrapping is helpful to lower the variance of RMSE. It is also helpful for smaller datasets, when creating mutually exclusive folds may not leave enough data to accurately train or evaluate the model.
+
+:::
+
 ### Question 9 
 
 Briefly describe model tuning and why we use it.
@@ -383,6 +425,18 @@ Briefly describe model tuning and why we use it.
 ## Solution
 
 Model tuning is a process where a range of parameter values are tested using a resampling process. The tuning parameters with the highest performance metric are often selected for the final model. Tuning is done to increase a model's predictive power by figuring out which combination of parameters best fit the data, using a resampling process to prevent overfitting.
+
+:::
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+4
+
+## Explanation
+
+Could have included examples of what hyperparameters are.
 
 :::
 
@@ -403,6 +457,18 @@ What are two common performance metrics when dealing with a classification ML pr
 ## Solution
 
 Accuracy and ROC AUC.
+
+:::
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+Correctly identified performance metrics for both.
 
 :::
 
@@ -427,5 +493,17 @@ Inferential, because it is testing a hypothesis about a relationship between two
 ## Solution
 
 Predictive, since it is trying to predict an outcome for future data.
+
+:::
+
+::: {.callout-important icon="false"}
+
+## Score 
+
+5
+
+## Explanation
+
+Correctly identified the type of problem for both, with an accurate explanation of why.
 
 :::
